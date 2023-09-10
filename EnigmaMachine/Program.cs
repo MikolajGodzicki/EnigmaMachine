@@ -22,7 +22,7 @@ namespace EnigmaMachine {
                 new List<char>() { 'O', 'X' }
             });
 
-            
+            /*
             char letter = 'A';
             int signal = keyboard.Forward(letter);
             signal = plugboard.Forward(signal);
@@ -35,7 +35,7 @@ namespace EnigmaMachine {
             signal = III.Backward(signal);
             signal = plugboard.Backward(signal);
             letter = keyboard.Backward(signal);
-            
+            */
 
             I.Render();
             I.RotateToLetter('G');
